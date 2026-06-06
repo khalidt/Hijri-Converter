@@ -180,13 +180,20 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
     </p>
 
     <footer>
-      <div>Runs entirely in your browser — no server, no tracking.</div>
       <div>Open-source · free to use, modify, and share.</div>
+        <div>
+    © <span id="year"></span> Based on Hijri Converter by Khalid Alkhaldi ·
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+      CC BY-NC-SA 4.0
+    </a>
+  </div>
     </footer>
   </div>
 
 <script>
-
+  
+document.getElementById("year").textContent = new Date().getFullYear();
+  
 const fl = Math.floor;
 
 function hijriToJdn(y, m, d){
