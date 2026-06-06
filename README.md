@@ -4,6 +4,14 @@
 
 </div>
 
+## Live Demo
+<p align="center">
+  <a href="https://khalidt.github.io/Hijri-Converter/">
+  <img src="docs/sc.png"
+       alt="Hijri Converter Screenshot"
+       width="400">
+</p>
+
 <p align="center">
   <a href="#العربية">🇸🇦 العربية</a>
 </p>
